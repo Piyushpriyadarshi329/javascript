@@ -33,7 +33,7 @@ let arr1=[1,45,55]
 
 // let newarr=arr.concat(arr1)
 
-// console.log([...arr,...arr1])
+console.log([...arr,...arr1])
 
 // let filterarr=  arr.filter((i)=>i>20)
 
