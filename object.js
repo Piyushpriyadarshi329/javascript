@@ -10,6 +10,8 @@
 
 // }
 
+
+
 // console.log(person1)
 
 // console.log(person2)
@@ -18,15 +20,34 @@
 
 // console.log(newobj)
 
+
+
 // let obj={
 
 //     name:"abc",
 //     city:"pune",
-//     mobile:987665678
+//     mobile:987665678,
+
 // }
 
 
-// console.log(obj["name"])
+// obj.firstname=obj.name
+
+// delete obj.name
+
+// console.log(Object.keys(obj))
+
+// obj.name+obj.city
+
+// console.log(obj)
+
+
+// obj.name="xyz"
+
+
+// console.log(obj)
+
+// console.log(obj["name"],obj["city"])
 // console.log(obj.city)
 
 // let arr=[1,2,3]
@@ -134,13 +155,10 @@ let student = [
 // console.log(student.length)
 
 
-//     let filterstudent=  student.filter((i)=>{
-
-//     return i.totalMarks
-//    })
+    let filterstudent=  student.filter((i)=>  i.totalMarks>400 )
 
 
-//    console.log("filterstudent",filterstudent)
+   console.log("filterstudent",filterstudent)
 
 
 // let x=20
@@ -165,6 +183,9 @@ let student = [
 // let sum=  numarr.reduce((acc,cur)=> acc+cur,0)
 
 
-//1=>3=>6=>10=>15=>21
+// // 1=>3=>6=>10=>15=>21
 
 // console.log("sum",sum)
+
+
+

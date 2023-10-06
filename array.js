@@ -37,7 +37,7 @@ console.log([...arr,...arr1])
 
 // let filterarr=  arr.filter((i)=>i>20)
 
-// let filterarr=arr.filter((i)=>i>50)
+let filterarr=arr.filter((i)=>i>50)
 
 // console.log(arr.reverse())
 
